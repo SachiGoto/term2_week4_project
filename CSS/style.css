@@ -1,0 +1,259 @@
+body{
+    margin:0px;
+    padding:0px;
+    margin: 0% 5%;
+    background:linear-gradient(180deg,#d8c7cc, #ddc3dd);
+    background-repeat: no-repeat;
+    font-family:'Jura', sans-serif;
+    min-height:1000px;
+
+}
+
+
+.container{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+.nav-item .nav-link:hover{
+    background-color:white !important;
+}
+
+
+.navbar{
+    margin-left:50px;
+    background-color:#d8c7cc !important;
+}
+
+.nav-item{
+    font-family:'Jura', sans-serif !important;
+}
+
+.nav-link{
+    color:black !important;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28102, 99, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.box1_box2{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+#box1{
+    width:100%;
+   background-color:white;
+    min-height:200px; 
+    text-align:center;
+    background-position:bottom;
+}
+
+#box1 h1,p{
+    padding:5px;
+}
+
+#myName{
+    font-family:'Abril Fatface', cursive;
+    font-size:40px;
+}
+
+.abrilFont{
+    font-family:'Abril Fatface', cursive;
+    font-size:30px;
+}
+
+#box2{
+    width:100%;
+    background-image:url(../img/finalretouching.jpg);
+    background-position:0px -19px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-width:300px;
+    min-height:500px;
+}
+
+
+#box3{
+    background-color:white;
+    text-align:left;
+    padding:0px 10px;
+   min-height:200pz;
+  
+} 
+
+#box3 p{
+    line-height:2.0;
+    margin:0px;  
+}
+
+#box3 p::first-letter{
+    font-size:25px;
+}
+
+
+.socialMedia{
+    display:flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+}
+
+.socialMedia li{
+    display:inline-block;
+    font-size:20px;
+    padding:5px;
+}
+
+.socialMedia li a{
+    color:grey;  
+}
+
+.socialMedia li:hover a{
+    color:purple;
+}
+
+
+#google_map{
+         
+    width:100%;
+    height:30vh; 
+}
+
+
+#textarea{
+    height:300px;
+}
+
+
+/* For tablets */
+@media (min-width: 768px){
+
+    .container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .box1_box2{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+    }
+
+    #box2{
+        width:50%;
+        min-height:400px;
+        
+    }
+
+
+    #box1{
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-image:url("../img/leaves.jpeg");
+        width:50%;
+        min-height:400px;
+    }
+
+    #box3{
+       width:100%;
+       min-height:400px;
+     
+    }
+
+
+    .boxA{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .boxD{
+        display:flex;
+        flex-direction:column;
+    }
+
+    
+.container{
+    align-items:inherit;
+ }
+}
+
+/* For desktops */
+    @media (min-width: 1000px){
+
+.container{
+display:flex;
+flex-direction:row;
+flex-wrap: nowrap;
+}
+
+.box1_box2{
+    width:65%;
+    height:80vh;
+}
+
+#box1{
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    width:50%;
+    
+    height:100vh;
+}
+
+#box2{
+    width:80%;
+   
+
+background-size:cover;
+background-repeat:no-repeat;
+min-width:300px;
+height:100vh;
+background-position:0px 0px;
+
+}
+
+
+#box3{
+    width:35%;
+    height:100vh;
+   
+}
+
+.boxA{
+    display:flex;
+    flex-direction:row;
+    align-content:start;
+}
+
+.boxE{
+    display:block;
+    width:40%;
+}
+
+.boxD{
+    display:flex;
+    flex-direction:row;
+    width:60%;
+   
+}
+
+.boxB{
+    display:block;
+}
+
+.boxC{
+    display:block;
+}
+
+.container{
+   align-items:inherit;
+}
+
+    }
+
